@@ -101,4 +101,85 @@ header {
   margin-right: 4px;
 }
 
+.section-heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  color: #bf7506;
+  margin-top: 0;
+}
+
+.cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card {
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+
+.card-text-wrapper {
+  padding: 16px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  color: #bf7506;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.tags {
+  display: flex;
+  list-style: none;
+  gap: 4px;
+  padding: 0;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.tag {
+  padding: 4px 8px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #211b12;
+  text-decoration: none;
+  border: 1px solid #dd9c3c;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211b12;
+}
+
+.card-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-button {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 7px 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211b12;
+  gap: 4px;
+  border-bottom: 2px solid #bf7506;
+}
+
+
 
