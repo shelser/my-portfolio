@@ -5,10 +5,10 @@ $email = $_POST['client_email']; // получаем почту клиента
 $message = $_POST['client_message']; // получаем сообщение клиента
 
 // воодим между кавычек токен бота, который прислал @botfater
-$token = "8398899184:AAGljC2tMaG4t51qKaHkNZCUNojsdIsM7mI"; 
+$token = ""; 
 // вставляем номер чата, который можно найти на странице 
 // api.telegram.org/botXXXXXXXXX/getUpdates — где XXX это токен бота
-$chat_id = "451801220";
+$chat_id = "";
 
 // Собираем данные в один массив 
 $arr = array(
